@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "pngtree-globe-and-map-pointers-icon-png-image_1800659.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "pngtree-globe-and-map-pointers-icon-png-image_1800659-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "pngtree-globe-and-map-pointers-icon-png-image_1800659-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
