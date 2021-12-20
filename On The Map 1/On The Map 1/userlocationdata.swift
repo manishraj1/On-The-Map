@@ -15,6 +15,26 @@ class userlocationdata {
             app.open(URL(string: urlToOpen)!)
         }
     }
+    enum ValidityType{
+        case website
+    }
+    
+    enum Regex: String{
+        
+        case website = "((?:http|https)://)?(?:www\\.)?[\\w\\d\\-_]+\\.\\w{2,3}(\\.\\w{2})?(/(?<=/)(?:[\\w\\d\\-./_]+?)?"
+        
+    }
+    
+    func isValid(_ validityType: ValidityType) -> Bool{
+        let format = "SELF MATCHES %@"
+        var regex = ""
+        
+        switch validityType{
+        case .website:
+            regex = Regex.website.rawValue
+        }
+        return NSPredicate(format: format, regex).evaluate(with: self)
+    }
 }
 
 fileprivate var spinnerView: UIView?
