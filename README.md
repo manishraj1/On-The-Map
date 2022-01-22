@@ -12,6 +12,8 @@ After viewing the information posted by other students, a user can post their ow
 
 # Implementation
 
+App Specification: On The Map
+
 First, the user logs in to the app using their Udacity username and password. After login, the app downloads locations and links previously posted by other students. These links can point to any URL that a student chooses. We encourage students to share something about their work or interests.
 After viewing the information posted by other students, a user can post their own location and link. The locations are specified with a string and forward geocoded. They can be as specific as a full street address or as generic 
 
